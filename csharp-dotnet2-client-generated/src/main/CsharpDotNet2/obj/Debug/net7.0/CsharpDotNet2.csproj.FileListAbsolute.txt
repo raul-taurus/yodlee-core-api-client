@@ -1,0 +1,12 @@
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/CsharpDotNet2.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/CsharpDotNet2.AssemblyInfoInputs.cache
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/CsharpDotNet2.AssemblyInfo.cs
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/CsharpDotNet2.csproj.CoreCompileInputs.cache
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/CsharpDotNet2.csproj.AssemblyReference.cache
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/bin/Debug/net7.0/CsharpDotNet2.deps.json
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/bin/Debug/net7.0/CsharpDotNet2.dll
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/bin/Debug/net7.0/CsharpDotNet2.pdb
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/CsharpDotNet2.dll
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/refint/CsharpDotNet2.dll
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/CsharpDotNet2.pdb
+/workspaces/yodlee-core-api-client/csharp-dotnet2-client-generated/src/main/CsharpDotNet2/obj/Debug/net7.0/ref/CsharpDotNet2.dll

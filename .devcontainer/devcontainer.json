@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+  "name": "Node.js & TypeScript",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/dotnet:2": {
+      "additionalVersions": "lts"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-dotnettools.csdevkit", "esbenp.prettier-vscode"]
+    }
+  },
+  "mounts": [
+    "source=${env:HOME}${env:USERPROFILE}/.aws,target=/home/node/.aws,type=bind"
+  ],
+  "containerEnv": {
+    "DOCKER_HOST_USER": "${localEnv:USER}"
+  },
+  "remoteEnv": {
+    "GH_USER": "${localEnv:GH_USER}",
+    "GH_PAT": "${localEnv:GH_PAT}"
+  },
+  "onCreateCommand": "sh .devcontainer/on-create.sh",
+  "postStartCommand": "sh .devcontainer/post-start.sh"
+}
