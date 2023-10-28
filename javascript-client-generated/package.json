@@ -1,0 +1,41 @@
+{
+  "name": "yodlee_core_apis",
+  "version": "1.1.0",
+  "description": "This_file_describes_the_Yodlee_Platform_APIs_using_the_swagger_notation__You_can_use_this_swagger_file_to_generate_client_side_SDKs_to_the_Yodlee_Platform_APIs_for_many_different_programming_languages__You_can_generate_a_client_SDK_for_Python_Java_JavaScript_PHP_or_other_languages_according_to_your_development_needs__For_more_details_about_the_APIs_refer_to_a_hrefhttpsdeveloper_envestnet_comresourcesyodleeyodlee_api_overviewdocsYodlee_API_v1_1___Overviewa_brbrYou_will_have_to_set_the_header_before_making_the_API_call__The_following_headers_apply_to_all_the_APIsulliAuthorization_This_header_holds_the_access_tokenli_li_Api_Version_1_1liulbNoteb_If_there_are_any_API_specific_headers_they_are_mentioned_explicitly_in_the_respective_APIs_description_",
+  "license": "Yodlee Developer License",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "superagent": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^8.0.1",
+    "sinon": "^7.2.0"
+  }
+}
